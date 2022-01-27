@@ -1,18 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {HelloWord, DadosPessoais}  from "./components/HelloWord";
+import Calendario from "./components/Calendario/Calendario";
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 ReactDOM.render(
-  /* <HelloWord 
-  nome={"Viny"} 
-  sobrenome={"Meireles"}
-  /> , */
-
-  <DadosPessoais
-  idade={"40"}
-  cpf={"054.123.654-00"}
-  email={"vinycode@gmail.com"} 
-  />
-,  
+  <div>
+  <p><Calendario /></p>
+  <p><Calendar /></p>
+  </div>
+  ,
   document.getElementById('root')
 )

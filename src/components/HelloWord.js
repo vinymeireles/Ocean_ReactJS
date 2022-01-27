@@ -4,10 +4,5 @@ function HelloWord( {nome, sobrenome} ) {
     )
 };
 
-function DadosPessoais( {idade, cpf, email} ){
-    return (
-    <p>Idade:{idade} | CPF: {cpf} | Email: {email}</p>
-    )
-};
 
-export {HelloWord, DadosPessoais};
+export default HelloWord;
